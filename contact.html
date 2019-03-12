@@ -29,5 +29,38 @@
     ></iframe>
 
     <!-- Contact form -->
+    <form action="#" method="POST">
+      <label for="fullname">Name</label>
+      <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        placeholder="Your name"
+        required
+      />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Your email"
+        required
+      />
+      <label for="phone">Phone</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Your phone number (optional)"
+      />
+      <label for="message">Message</label>
+      <textarea
+        name="message"
+        id="message"
+        rows="10"
+        placeholder="Your message"
+      ></textarea>
+      <input type="submit" value="Send" />
+    </form>
   </body>
 </html>
